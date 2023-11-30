@@ -1,0 +1,22 @@
+.results-container {
+    background-color: rgba(86, 45, 194, 0.2);
+    color: #265892;
+    border: 1px solid #E6E72E;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .results-heading {
+    color: #00FFFF;
+    text-align: center;
+  }
+  
+  .result-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .result-item span {
+    flex: 1;
+  }
