@@ -25,7 +25,7 @@ header {
 
 .calculator-section {
   width: 60%; 
-  background-color: #265892;
+  background-color: #47177d;
   color: #E6E72E;
   border: 1px solid rgba(75, 19, 12, 1);
   padding: 20px;
@@ -43,7 +43,6 @@ transition: transform 0.3s ease-in-out;
 .results-section {
   width: 40%; 
   background-color: #a47aac;
-  /* color: #033062; */
   border: 1px solid #E6E72E;
   padding: 20px;
   border-radius: 8px;
