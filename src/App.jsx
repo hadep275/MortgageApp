@@ -45,7 +45,7 @@ const App = () => {
           <Form onCalculate={calculateMortgage} />
         </section>
         <section className="results-section">
-          <h2>Results</h2>
+          {/* <h2>Results</h2> */}
           <Results mortgageData={mortgageData} />
         </section>
       </div>

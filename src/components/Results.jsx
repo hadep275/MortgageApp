@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/Results.css';
 
 const Results = ({ mortgageData }) => {
   if (!mortgageData) {

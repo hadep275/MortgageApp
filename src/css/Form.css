@@ -14,15 +14,21 @@
   
   .input-group {
     margin-bottom: 15px;
+    border: 1px solid rgba(75, 19, 12, 1);
+    border-radius: 8px;
+    display: flex;
   }
   
   .input-group label {
     display: block;
-    margin-bottom: 5px;
+    margin: 15px;
+    /* margin: 15px, 20px, 50px, -50px; */
+
   }
   
   input[type="range"] {
     width: 100%;
+    /* margin: 15px, 0px, 0px, 50px; */
   }
   
   span {
@@ -40,4 +46,21 @@
     color: #E6E72E;
   }
   
-  
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #265892;
+  color: #E6E72E;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #3d3275;
+}

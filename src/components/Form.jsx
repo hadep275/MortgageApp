@@ -9,14 +9,11 @@ const Form = ({ onCalculate }) => {
   const [paymentFrequency, setPaymentFrequency] = useState('monthly');
 
   const handleCalculate = () => {
-    // Validate input before calculating
     if (isNaN(loanAmount) || isNaN(interestRate) || isNaN(loanTerm)) {
-      // Handle invalid input (e.g., display an error message)
       console.error("Please fill in all required fields with valid values.");
       return;
     }
 
-    // Pass form data to the parent component for calculation
     onCalculate({
       loanAmount: parseFloat(loanAmount),
       interestRate: parseFloat(interestRate),
@@ -54,7 +51,6 @@ const Form = ({ onCalculate }) => {
           <option value="annually">Annually</option>
         </select>
       </div>
-      {/* Other input fields */}
       <button onClick={handleCalculate}>Calculate</button>
     </div>
   );
